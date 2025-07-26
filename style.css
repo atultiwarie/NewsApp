@@ -1,11 +1,11 @@
-/* Reset */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* Header styles */
+
 header {
   display: flex;
   align-items: center;
@@ -16,7 +16,6 @@ header {
   flex-wrap: nowrap;
 }
 
-/* Logo */
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
@@ -29,7 +28,7 @@ header {
   padding: 0.5rem;
 }
 
-/* Navbar */
+
 .navBar ul {
   display: flex;
   flex-wrap: nowrap;
@@ -39,7 +38,7 @@ header {
   padding: 0;
   overflow-x: auto;
   white-space: nowrap;
-  scrollbar-width: thin; /* Firefox */
+  scrollbar-width: thin; 
 }
 
 .navBar ul::-webkit-scrollbar {
@@ -53,14 +52,14 @@ header {
 .navBar li {
   cursor: pointer;
   color: white;
-  flex-shrink: 0; /* Prevent items from shrinking */
+  flex-shrink: 0; 
 }
 
 .navBar li:hover {
   text-decoration: underline;
 }
 
-/* News container and cards */
+
 .news-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -86,7 +85,6 @@ header {
   margin: 0.5rem 0;
 }
 
-/* Responsive adjustments */
 @media (max-width: 480px) {
   .logo {
     font-size: 1.2rem;
